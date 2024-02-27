@@ -8,6 +8,7 @@
  * Return: If an error occurs - NULL.
  *         Otherwise - a pointer to the new node.
  */
+
 binary_tree_t *binary_tree_node(binary_tree_t *node_parent, int node_value)
 {
     binary_tree_t *new_node;
